@@ -1,0 +1,93 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Javascript steroids</title>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark navbar-expand-sm fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand mr-auto" href="./home.html"><img src="static/images/logo.png" height="30" width="41" alt="MyJavascript"></a>
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a class="nav-link" href="home.html"><span class="fa fa-home fa-lg"></span>Home</a></li>
+                    <li class="nav-item "><a class="nav-link" href="project_1.html"><i class="fa fa-sun-o" aria-hidden="true"></i>Your Age in Days</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./project_2.html"><i class="fa fa-paw" aria-hidden="true"></i>Cat Generator</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-gamepad" aria-hidden="true"></i>Rock Paper Scissor</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span>Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href=""><span class="fa fa-address-card fa-lg"></span>Contact</a></li> -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-2">
+        <h2>Challange 3: Rock, Paper, Scissors</h2>
+        <div class="flex-box-rps" id="flex-box-rps-div">
+            <img src="static/images/rock.jfif" alt="" id="rock" height="150" width="150" onclick="rpsGame(this)">
+            <img src="static/images/paperrr.jfif" alt="" id="paper" height="150" width="150" onclick="rpsGame(this)">
+            <img src="static/images/scissor.png" alt="" id="scissor" height="150" width="150" onclick="rpsGame(this)">
+        </div>
+        <div>
+            <button class="btn btn-danger">
+                <a href="./project_3.html"  style="text-decoration: none; color: black;">Play Again! </a>
+            </button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-content">
+            
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">             
+                <div class="col-4 offset-1 col-sm-2">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="./home.html" style="text-decoration: none; color: rgb(20, 33, 148);">Home</a></li>
+                        <li><a href="./project_1.html" style="text-decoration: none; color: rgb(20, 33, 148);">project-1</a></li>
+                        <li><a href="./project_2.html" style="text-decoration: none; color: rgb(20, 33, 148);">Project-2</a></li>
+                        <li><a href="./project_3.html" style="text-decoration: none; color: rgb(20, 33, 148);">Project-3</a></li>
+                    </ul>
+                </div>
+                <div class="col-7 col-sm-5">
+                    <h5>Our Address</h5>
+                    <address>
+		              Hostel 5,Mnit<br>
+		              Malviya Nagar<br>
+		              JAIPUR<br>
+		              Tel.: +852 1234 5678<br>
+		              Fax: +852 8765 4321<br>
+		              Email: <a href="mailto : mokshahuja789@gmail.com ">mokshahuja789@gmail.com</a>
+		           </address>
+                </div>
+                <div class="col-12 col-sm-4 align-self-center">
+                    <div class="text-center">
+                        <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-youtube" href="http://youtube.com/"><i class="fa fa-youtube fa-lg"></i></a>
+                        <a class="btn btn-social-icon " href="mailto:"><i class="fa fa-envelope-o fa-lg"></i></a>
+                    </div>
+                </div>
+           </div>
+           <div class="row justify-content-center">             
+                <div class="col-auto">
+                    <p>© Copyright 2018 Pied Piper</p>
+                </div>
+           </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="static/js/index.js"></script>
+</body>
+</html>
